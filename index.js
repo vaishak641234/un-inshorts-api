@@ -43,16 +43,17 @@ function getShorts(callback,options){
                     source:readMore
                 }
                 news.push(result);
+                var newJson = JSON.stringify(news);
                 if(options != undefined){
                 if(i+1==options.numofresults){
-                    callback(news)
+                    callback(newJson)
                     flag = 1
                 }}
             });
            
         }
         if(flag != 1){
-        callback(news);
+        callback(newJson);
         }
     });
 }
