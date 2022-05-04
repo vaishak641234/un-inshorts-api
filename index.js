@@ -53,7 +53,8 @@ function getShorts(callback,options){
            
         }
         if(flag != 1){
-        callback(newJson);
+            var newJson = JSON.stringify(news);
+            callback(newJson);
         }
     });
 }
