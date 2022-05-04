@@ -1,5 +1,6 @@
 const request = require('request');
 const cheerio = require('cheerio');
+const { v4: uuidv4 } = require('uuid');
 
 function getShorts(callback,options){
     let news = []
@@ -33,7 +34,7 @@ function getShorts(callback,options){
                 content = content.substring(0,content.indexOf('\n'));
 
                 var result = {
-                    id:i,
+                    id:uuidv4(),
                     img:imgUrl,
                     title:title,
                     content:content,
