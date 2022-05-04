@@ -1,5 +1,5 @@
+# ON PROGRESS !!
 
-## ON PROGRESS
 # un-inshorts-api
 
 The unofficial api of the short news app inshorts
@@ -28,14 +28,14 @@ inshorts.getShorts(function(result){
 },options);
 ```
 
-options is an optional parameter.
-By default:
-language : 'en'(English)
-category : ''
-numofresults : 25
+options is an optional parameter.<br/>
+By default:<br/>
+language : 'en'(English)<br/>
+category : ''<br/>
+numofresults : 25<br/>
 
-and these are the keys that you can include 
-any number above 25 will still return 25 
+and these are the keys that you can include <br/>
+any number above 25 will still return 25 <br/>
 
 ## Available Categories-
  - //Leave empty for getting all news
