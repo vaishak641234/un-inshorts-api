@@ -78,6 +78,10 @@ Response
 
 -Vaishak C Manoharan
 
+## Inspired by
+
+-https://github.com/Nedwize/inshorts-api
+
 
 
 
