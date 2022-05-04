@@ -135,7 +135,7 @@ Response
 ]
 ```
 
-## People
+## Contributors
 
 -Vaishak C Manoharan
 
