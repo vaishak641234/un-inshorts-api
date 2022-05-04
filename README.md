@@ -2,7 +2,7 @@
 
 # un-inshorts-api
 
-The unofficial api of the short news app inshorts
+The unofficial js wrapper of the short news app inshorts
 
 ## Installation
 
