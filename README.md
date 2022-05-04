@@ -70,69 +70,8 @@ inshorts.get(options ,function(result){
 ```
 Response 
 
-```javascript
-[
-  {
-    id: 0,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651668545728_69.jpg?',
-    title: "Tamil Nadu administration bans Mutt's palanquin ritual; devotees protest",
-    content: "Tamil Nadu administration denied permission for 'Pattina Pravesam' ritual in Mayiladuthurai in which devotees carry the Dharmapuram mutt's seer on a palanquin. A group of devotees held a protest against the government's decision ahead of the ritual scheduled for May 22. State BJP chief K Annamalai said he would lift the palanquin himself if authorities didn't allow the ritual.",
-    author: 'Deepika Bhatt',
-    time: '06:35 pm',
-    date: '04 May 2022,Wednesday',
-    source: undefined
-  },
-  {
-    id: 1,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651670126546_977.jpg?',
-    title: 'Policeman who raped 13-yr-old rape survivor in UP police station arrested',
-    content: "The Station House Officer (SHO), who allegedly raped a 13-year-old rape survivor when she had gone to the police station to file a complaint in Uttar Pradesh's Lalitpur, has been arrested from Prayagraj. The police officer was absconding. Earlier, the SHO was suspended and all policemen of the police station in Lalitpur were sent to police lines.",
-    author: 'Deepika Bhatt',
-    time: '07:10 pm',
-    date: '04 May 2022,Wednesday',
-    source: 'https://twitter.com/PTI_News/status/1521835771933900802?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts '
-  },
-  {
-    id: 2,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651663761711_113.jpg?',
-    title: "Man takes off 2 girls' clothes, urinates in Delhi school; principal tells girls 'forget it'",
-    content: `Delhi Commission for Women chief Swati Maliwal has issued a notice to police after a man allegedly entered a municipal school in Delhi and sexually assaulted two girls. She said the man took off the girls' clothes and urinated in front of an entire class. "When the girls told the principal & teacher, they said 'forget about it'," Maliwal added.`,
-    author: 'Arshiya Chopra',
-    time: '05:21 pm',
-    date: '04 May 2022,Wednesday',
-    source: 'https://twitter.com/SwatiJaiHind/status/1521755432746110976?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts '
-  },
-  {
-    id: 3,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651667432294_893.jpg?',
-    title: 'PM Modi meets leaders of 5 countries in Denmark, pic released',
-    content: 'PM Narendra Modi met leaders of Denmark, Finland, Iceland, Norway and Sweden on Wednesday for the second India-Nordic Summit in Copenhagen. Releasing the picture of the leaders, External Affairs Ministry Spokesperson said, "The 2018 Summit in Stockholm was the 1st time India engaged with the Nordic countries as a group on a single platform."',
-    author: 'Arshiya Chopra',
-    time: '06:23 pm',
-    date: '04 May 2022,Wednesday',
-    source: 'https://twitter.com/htTweets/status/1521815384894341120?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts '
-  },
-  {
-    id: 4,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651665155082_429.jpg?',
-    title: 'PM Modi meets Finland PM, discusses ways to deepen bilateral ties  ',
-    content: 'PM Narendra Modi on Wednesday met Finland PM Sanna Marin during his Europe tour and discussed ways to further deepen bilateral ties. "There is immense potential in expanding the India-Finland digital partnership, trade partnership and investment linkages," PM Modi said. He also held a series of bilateral meetings with his counterparts from Norway, Sweden and Iceland. ',
-    author: 'Deepika Bhatt',
-    time: '05:54 pm',
-    date: '04 May 2022,Wednesday',
-    source: 'https://twitter.com/narendramodi/status/1521810123857055744?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts '
-  },
-  {
-    id: 5,
-    img: 'https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651664158342_81.jpg?',
-    title: "B'luru Traffic Police creates green corridor for live heart transportation",
-    content: 'Bengaluru Traffic Police on Wednesday created a green corridor for transporting a live heart to a hospital in the city and also shared a video of the same on Twitter. The corridor to carry the live heart was created between Manipal Hospital in Hebbal to MS Ramaiah Memorial Hospital. Police also provided a green corridor for transportation of liver today.',
-    author: 'Dharini Mudgal',
-    time: '05:30 pm',
-    date: '04 May 2022,Wednesday',
-    source: 'https://twitter.com/blrcitytraffic/status/1521731918605086720?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts '
-  }
-]
+```json
+[{"id":0,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651680075822_556.jpg?","title":"Curfew in Jodhpur imposed after clashes extended till May 6 midnight","content":"The district administration in Rajasthan's Jodhpur has extended the curfew till midnight of May 6 (Friday). The curfew was imposed in 10 police station areas on Tuesday after communal clashes broke out on Monday night. Several people, including police personnel, were injured during the violence in the district.","author":"Deepika Bhatt","time":"09:52 pm","date":"04 May 2022,Wednesday","source":"https://twitter.com/ANI_MP_CG_RJ/status/1521878514584387588?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "},{"id":1,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651677161786_412.jpg?","title":"Dehradun school reports 16 COVID cases, turned into micro-containment zone","content":"As many as 16 people tested positive for COVID-19 at the Welham Girls' School in Uttarakhand's Dehradun. As per District Magistrate R Rajesh Kumar, six of the students tested COVID-19 positive on Tuesday and the rest over the past one week. The residential school has been declared a micro-containment zone.","author":"Deepika Bhatt","time":"09:31 pm","date":"04 May 2022,Wednesday","source":"https://news.abplive.com/states/up-uk/dehradun-welham-girls-school-reports-16-covid-19-cases-declared-micro-containment-zone-1529912/amp?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "},{"id":2,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651675567721_334.jpg?","title":"Farmer finds 11.88-carat diamond worth around ₹50 lakh in MP mine","content":"A small-time farmer in Madhya Pradesh's Panna district has found an 11.88-carat diamond in a mine. As per private estimates, the diamond may fetch over ₹50 lakh at an auction. The money received from the auction will be used for setting up a business and for the education of the farmer's children.","author":"Deepika Bhatt","time":"08:53 pm","date":"04 May 2022,Wednesday","source":"https://theprint.in/india/luck-shines-on-mp-farmer-as-he-mines-11-88-carat-diamond-in-panna/942560/?amp=&utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "},{"id":3,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651676001663_130.jpg?","title":"Pics show gifts PM Modi gave to leaders of 5 nations he met in Denmark","content":"After meeting leaders of Nordic countries, PM Narendra Modi gifted Rogan Painting from Gujarat to Denmark Queen Margrethe II. He gifted a Pashmina stole in Papier Mache box from J&K to Sweden PM Magdalena Andersson and a Brass Tree of Life from Rajasthan to Finland PM Sanna Marin. He gifted Dokra boat from Chhattisgarh to Crown Prince Frederik of Denmark.","author":"Arshiya Chopra","time":"08:28 pm","date":"04 May 2022,Wednesday","source":"https://twitter.com/jitubhaiMLA/status/1521832514767048705?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "},{"id":4,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651680436061_484.jpg?","title":"4 men drag teen girl out of auto and tear her clothes in UP, post video online","content":"A teenaged girl travelling with her aunt in an auto-rickshaw was allegedly pulled out of the vehicle and molested by four youths in Uttar Pradesh's Gonda recently. They dragged her to roadside bushes where they tore her clothes and molested her and later posted the incident's video online, police said. A search has been launched to nab the accused.","author":"Arshiya Chopra","time":"09:51 pm","date":"04 May 2022,Wednesday","source":"https://www.hindustantimes.com/cities/lucknow-news/youths-drag-girl-out-of-auto-molest-assault-her-in-up-s-gonda-101651674683374-amp.html?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "},{"id":5,"img":"https://static.inshorts.com/inshorts/images/v1/variants/jpg/m/2022/05_may/4_wed/img_1651681851404_569.jpg?","title":"PM Modi welcomed by Indian diaspora on his arrival in Paris","content":"PM Narendra Modi was on Wednesday welcomed by the Indian community in Paris. PM Modi arrived in the French capital on the third and final leg of his visit to three European countries. He will meet French President Emmanuel Macron during his visit. PM Modi earlier visited Germany and Denmark.","author":"Deepika Bhatt","time":"10:18 pm","date":"04 May 2022,Wednesday","source":"https://twitter.com/ANI/status/1521884261233864704?utm_campaign=fullarticle&utm_medium=referral&utm_source=inshorts "}]
 ```
 
 ## Contributors
