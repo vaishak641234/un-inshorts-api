@@ -23,7 +23,7 @@ var options = {
     numofresults : any number till 25
 }
 
-inshorts.getShorts(function(result){
+inshorts(function(result){
     // anything you want to do with the result
 },options);
 ```
@@ -64,9 +64,9 @@ var options = {
   numOfResults: 6
 }
 
-inshorts.get(options ,function(result){
+inshorts(function(result){
   console.log(result);
-});
+},options);
 ```
 Response 
 
