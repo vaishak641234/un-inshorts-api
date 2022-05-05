@@ -6,9 +6,23 @@ function getShorts(callback,options){
     let news = []
     let flag = 0
     let URL
-    if(options == undefined){
+    if(options == undefined ){
          URL = 'https://inshorts.com/en/read';
-    }else{ 
+    }else if(options.category == undefined ){
+        if(options.language == options.language){
+            URL = `https://inshorts.com/${options.language}/read`
+        }else{
+            URL = `https://inshorts.com/en/read`;
+        }
+        
+   }else if(options.language == undefined ){
+       if(options.category == undefined){
+            URL = 'https://inshorts.com/en/read';
+       }else{
+           URL = `https://inshorts.com/en/read/${options.category}`;
+       }
+    
+}else{ 
         URL = `https://inshorts.com/${options.language}/read/${options.category}`;
     }
 
@@ -59,5 +73,4 @@ function getShorts(callback,options){
         }
     });
 }
-
-module.exports = getShorts;
+ module.exports = getShorts;

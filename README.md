@@ -35,6 +35,13 @@ category : ''<br/>
 numofresults : 25<br/>
 
 and these are the keys that you can include <br/>
+keys are optional as well <br/>
+```javascript
+var options = {
+  numofresults:2 //Ignoring language and category
+}
+```
+this is a valid options object
 any number above 25 will still return 25 <br/>
 
 ## Available Categories-
