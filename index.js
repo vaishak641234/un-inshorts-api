@@ -8,6 +8,8 @@ function getShorts(callback,options){
     let URL
     if(options == undefined ){
          URL = 'https://inshorts.com/en/read';
+    }else if (options.language == undefined && options.category == undefined){
+        URL = 'https://inshorts.com/en/read';
     }else if(options.category == undefined ){
         if(options.language == options.language){
             URL = `https://inshorts.com/${options.language}/read`
